@@ -170,6 +170,18 @@ input {
   color: var(--clr-white);
   cursor: pointer;
 }
+.btncopy {
+  background: var(--clr-primary-7);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.6rem;
+  border-color: transparent;
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  text-transform: capitalize;
+  color: var(--clr-white);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 576px) {
   .container h3 {
     font-size: 1rem;
@@ -177,6 +189,12 @@ input {
   input,
   .btn {
     font-size: 0.85rem;
+  }
+  .btncopy{
+    font-size: 0.42rem;
+  }
+  .color-count-input {
+    margin-left: 10px;
   }
 }
 input.error {
@@ -214,3 +232,12 @@ input.error {
   font-size: 0.85rem;
   margin-top: 0.5rem;
 }
+.form-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-container {
+  margin-right: 10px;
+}
+
